@@ -3,7 +3,7 @@ title:      devs[0][3] = Shabrina Virta Inmas
 date:       2018-05-28
 subtitle:   Kebahagiaan bisa diraih hanya karena mengetahui tentang vim plugin.
 draft:      false
-url:        /shabrina-inmas/
+path:        "/shabrina-inmas"
 excerpt:    "Bahagia itu sederhana. Bisa vim plugin itu bahagia. Selama dua tahun saya menggunakan vim tanpa plugin sama sekali. Saya tidak tahu vim itu bisa diinstal plugin."
 guest:      Shabrina Virta Inmas
 thumbnail: /images/shabrina.jpeg

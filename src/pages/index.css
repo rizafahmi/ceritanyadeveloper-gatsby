@@ -11,3 +11,7 @@ a:hover {
   @apply bg-teal-light;
   @apply text-blue-lightest;
 }
+
+p {
+  @apply py-3;
+}

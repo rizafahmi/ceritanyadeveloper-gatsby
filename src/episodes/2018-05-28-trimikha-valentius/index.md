@@ -2,7 +2,7 @@
 title:      devs[0][2] = Trimikha Valentius
 date:       2018-05-28
 subtitle:    Komunitas menjadi bagian penting dalam karirnya sebagai developer
-url: /trimikha-valentius/
+path: "/trimikha-valentius"
 draft: false
 excerpt: "Membuat aplikasi dan game itu seperti merakit mainan yang bagian-bagiannya sudah ada tinggal bagaimana kita merangkainya menjadi satu kesatuan yang dapat berfungsi dengan baik. Itulah sebabnya saya sangat mencintai dunia programming hingga saat ini."
 guest: Trimikha Valentius

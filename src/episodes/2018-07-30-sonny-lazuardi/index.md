@@ -3,7 +3,7 @@ title:      devs[0][4] = Sonny Lazuardi
 date:       2018-07-29
 subtitle:   Dampak yang didapat dengan membangun aplikasi yang berguna bagi banyak orang
 draft:      false
-url:        /sonny-lazuardi/
+path:        "/sonny-lazuardi"
 excerpt:    "Coding mengasah kreatifitas dan dampak yang didapat dengan membangun aplikasi yang berguna bagi banyak orang itu sangat membahagiakan."
 guest:      Sonny Lazuardi
 thumbnail: /images/sonny.jpg

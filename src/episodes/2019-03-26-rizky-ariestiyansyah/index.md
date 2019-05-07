@@ -3,7 +3,7 @@ title:      devs[1][0] = Rizky Ariestiyansyah
 date:       2019-03-26
 subtitle: Kalau mau proposal talk lebih punya kesempatan diterima, submitlah proposal secepat mungkin
 draft:      false
-url:        /rizky-ariestiyansyah/
+path:        "/rizky-ariestiyansyah"
 excerpt: "Kalau mau proposal talk punya kesempatan diterima, submitlah proposal secepat mungkin!"
 guest:      Rizky Ariestiyansyah
 thumbnail: /images/rizky.jpg

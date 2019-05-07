@@ -1,12 +1,14 @@
 import React from 'react';
-import { StaticQuery, graphql } from 'gatsby';
+import { Link, StaticQuery, graphql } from 'gatsby';
 
 const TitleAndDescription = ({ data }) => {
   const { title, description } = data.site.siteMetadata;
 
   return (
     <div className="">
-      <h1>{title}</h1>
+      <h1>
+        <Link to={'/'}>{title}</Link>
+      </h1>
       <p>{description}</p>
       <p>
         Tersedia di:{' '}
@@ -69,4 +71,37 @@ const Header = () => {
   );
 };
 
-export default Header;
+const TopHeader = () => (
+  <div className="header flex flex-col">
+    <div className="logo my-2 flex flex-row">
+      <div className="image mx-4">
+        <Link to={'/'}>
+          <img
+            src={'images/logo.png'}
+            alt="Logo Ceritanya Developer"
+            style={{ width: 256 }}
+          />
+        </Link>
+      </div>
+      <Header />
+    </div>
+    <nav class="nav">
+      <ul className="nav-list list-reset flex justify-around my-2">
+        <li className="menuitem">
+          <a href="/about">Tentang</a>
+        </li>
+        <li className="menuitem font-mono">
+          <a href="/newsletter">Newsletter</a>
+        </li>
+        <li className="menuitem">
+          <a href="/donate">Donasi</a>
+        </li>
+        <li className="menuitem">
+          <a href="mailto:rizafahmi@gmail.com">Kontak</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+);
+
+export default TopHeader;
