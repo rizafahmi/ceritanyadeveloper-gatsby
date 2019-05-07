@@ -2,7 +2,7 @@
 title:      devs[1][1] = Imre Nagi
 date:       2019-04-29
 draft:      false
-url:        /imre-nagi/
+path:        "/imre-nagi"
 excerpt: "Mungkin di algoritma, struktur data agak kurang, tapi dari sisi coding style, design pattern, dan lain sebagainya aku merasa waktu itu di tingkat anak S2 codingan aku termasuk yang paling rapi."
 guest:      Imre Nagi
 thumbnail: /images/imre.jpg

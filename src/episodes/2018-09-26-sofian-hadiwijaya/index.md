@@ -3,7 +3,7 @@ title:      devs[0][6] = Sofian Hadiwijaya Part 1
 date:       2018-09-26
 subtitle:    Ternyata belajar jauh lebih cepat dengan cara mengajar dan sharing dengan sesama.
 draft:      false
-url:        /sofian-hadiwijaya-1/
+path:        "/sofian-hadiwijaya-1"
 excerpt:    "Ternyata belajar jauh lebih cepat dengan cara mengajar dan sharing dengan sesama."
 guest:      Sofian Hadiwijaya
 thumbnail: /images/sofian.jpeg

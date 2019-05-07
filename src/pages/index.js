@@ -1,41 +1,68 @@
 import React from 'react';
+import { Link, graphql } from 'gatsby';
 
-import Header from '../components/Header.js';
+import TopHeader from '../components/Header.js';
 import './index.css';
 
-const Layout = () => {
+const Layout = ({ data }) => {
+  const { nodes } = data.allMarkdownRemark;
   return (
     <div className="container font-mono mx-auto leading-loose text-grey-darkest">
-      <div className="header flex flex-col">
-        <div className="logo my-2 flex flex-row">
-          <div className="image mx-4">
-            <img
-              src={'images/logo.png'}
-              alt="Logo Ceritanya Developer"
-              style={{ width: 256 }}
-            />
-          </div>
-          <Header />
-        </div>
-        <nav class="nav">
-          <ul className="nav-list list-reset flex justify-around my-2">
-            <li className="menuitem">
-              <a href="/about">Tentang</a>
-            </li>
-            <li className="menuitem font-mono">
-              <a href="/newsletter">Newsletter</a>
-            </li>
-            <li className="menuitem">
-              <a href="/donate">Donasi</a>
-            </li>
-            <li className="menuitem">
-              <a href="mailto:rizafahmi@gmail.com">Kontak</a>
-            </li>
-          </ul>
-        </nav>
+      <TopHeader />
+      <div className="mx-6 mt-6">
+        <h2>Episode</h2>
       </div>
+      {nodes.map(({ frontmatter }) => {
+        return (
+          <div
+            key={frontmatter.path}
+            className="flex container mx-6 mb-6 pb-3 border-grey-lighter border-b"
+          >
+            <div className="thumb pr-3 self-center">
+              <img
+                style={{ maxWidth: 128, height: 'auto' }}
+                src={frontmatter.thumbnail}
+                alt="guest"
+              />
+            </div>
+            <div className="texts">
+              <h3 key={frontmatter.path}>
+                <Link to={frontmatter.path}>{frontmatter.title}</Link>
+              </h3>
+              <p>
+                "{frontmatter.excerpt}" -- {frontmatter.guest}
+              </p>
+              <div className="buttons">
+                <Link to={frontmatter.path}>
+                  <span role="img" aria-label="emoji">
+                    ▶️{' '}
+                  </span>
+                  Dengarkan
+                </Link>
+              </div>
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 };
+
+export const query = graphql`
+  query EpisodesQuery {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+      nodes {
+        frontmatter {
+          title
+          date
+          path
+          excerpt
+          thumbnail
+          guest
+        }
+      }
+    }
+  }
+`;
 
 export default Layout;
