@@ -9,7 +9,9 @@ exports.createPages = ({ graphql, actions }) => {
     resolve(
       graphql(`
         query {
-          allMarkdownRemark {
+          allMarkdownRemark(
+            sort: { order: ASC, fields: [frontmatter___date] }
+          ) {
             nodes {
               frontmatter {
                 path
@@ -19,13 +21,15 @@ exports.createPages = ({ graphql, actions }) => {
         }
       `).then(({ data }) => {
         const { nodes } = data.allMarkdownRemark;
-        nodes.forEach(node => {
+        nodes.forEach((node, index) => {
           const { path } = node.frontmatter;
           createPage({
             path,
             component: episodeTemplate,
             context: {
-              pathSlug: path
+              pathSlug: path,
+              prev: index === 0 ? null : nodes[index - 1],
+              next: index === nodes.length - 1 ? null : nodes[index + 1]
             }
           });
           resolve();

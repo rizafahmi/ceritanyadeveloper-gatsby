@@ -2,13 +2,15 @@ import React from 'react';
 import { graphql } from 'gatsby';
 
 import TopHeader from '../components/Header.js';
+import OtherEpisode from '../components/OtherEpisode.js';
 
-const Template = ({ data }) => {
+const Template = ({ data, pageContext }) => {
   const { html } = data.markdownRemark;
   const { title, excerpt, guest, embed } = data.markdownRemark.frontmatter;
   return (
     <div className="container font-mono mx-auto leading-loose text-grey-darkest">
       <TopHeader />
+      <OtherEpisode context={pageContext} />
       <div className="mx-6 mt-6">
         <h2>{title}</h2>
         <blockquote className="pl-4 border-l-4 border-teal ml-6 my-6">
@@ -22,7 +24,7 @@ const Template = ({ data }) => {
             title="audio"
             height="102px"
             width="752px"
-            frameborder="0"
+            frameBorder="0"
             scrolling="no"
           />
         </div>

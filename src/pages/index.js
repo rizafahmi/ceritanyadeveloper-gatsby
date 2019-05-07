@@ -14,7 +14,10 @@ const Layout = ({ data }) => {
       </div>
       {nodes.map(({ frontmatter }) => {
         return (
-          <div className="flex container mx-6 mb-6 pb-3 border-grey-lighter border-b">
+          <div
+            key={frontmatter.path}
+            className="flex container mx-6 mb-6 pb-3 border-grey-lighter border-b"
+          >
             <div className="thumb pr-3 self-center">
               <img
                 style={{ maxWidth: 128, height: 'auto' }}

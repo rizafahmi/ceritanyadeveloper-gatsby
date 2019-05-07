@@ -85,7 +85,7 @@ const TopHeader = () => (
       </div>
       <Header />
     </div>
-    <nav class="nav">
+    <nav className="nav">
       <ul className="nav-list list-reset flex justify-around my-2">
         <li className="menuitem">
           <a href="/about">Tentang</a>
