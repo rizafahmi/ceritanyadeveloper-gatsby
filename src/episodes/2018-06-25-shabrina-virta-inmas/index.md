@@ -1,6 +1,6 @@
 ---
 title:      devs[0][3] = Shabrina Virta Inmas
-date:       2018-05-28
+date:       2018-06-28
 subtitle:   Kebahagiaan bisa diraih hanya karena mengetahui tentang vim plugin.
 draft:      false
 path:        "/shabrina-inmas"

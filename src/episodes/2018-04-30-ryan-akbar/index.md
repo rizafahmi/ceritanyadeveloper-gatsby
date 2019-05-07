@@ -1,7 +1,7 @@
 ---
 title: devs[0][1] = Ryan Akbar
 path: "/ryan-akbar"
-date: 2018-4-30
+date: 2018-04-30
 draft: false
 excerpt: "Evan You membuktikan bahwa ngoding itu problem solving. Dan programming itu all about problem solving."
 guest: Ryan Akbar
