@@ -11,6 +11,7 @@ module.exports = {
         name: `episodes`,
         path: `${__dirname}/src/episodes`
       }
-    }
+    },
+    `gatsby-plugin-postcss`
   ]
 };

@@ -1,0 +1,13 @@
+@tailwind preflight;
+/* @tailwind components; */
+@tailwind utilities;
+
+a {
+  @apply text-blue-dark;
+  @apply no-underline;
+}
+
+a:hover {
+  @apply bg-teal-light;
+  @apply text-blue-lightest;
+}
