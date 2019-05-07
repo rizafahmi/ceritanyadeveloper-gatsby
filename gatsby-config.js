@@ -12,6 +12,13 @@ module.exports = {
         path: `${__dirname}/src/episodes`
       }
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/pages`
+      }
+    },
     `gatsby-plugin-postcss`
   ]
 };

@@ -74,7 +74,7 @@ const Header = () => {
 const TopHeader = () => (
   <div className="header flex flex-col">
     <div className="logo my-2 flex flex-row">
-      <div className="image mx-4">
+      <div className="image mx-4 self-center">
         <Link to={'/'}>
           <img
             src={'images/logo.png'}
@@ -88,13 +88,13 @@ const TopHeader = () => (
     <nav className="nav">
       <ul className="nav-list list-reset flex justify-around my-2">
         <li className="menuitem">
-          <a href="/about">Tentang</a>
+          <a href="/tentang">Tentang</a>
         </li>
         <li className="menuitem font-mono">
           <a href="/newsletter">Newsletter</a>
         </li>
         <li className="menuitem">
-          <a href="/donate">Donasi</a>
+          <a href="/donasi">Donasi</a>
         </li>
         <li className="menuitem">
           <a href="mailto:rizafahmi@gmail.com">Kontak</a>
