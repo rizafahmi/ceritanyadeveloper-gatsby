@@ -5,7 +5,7 @@ draft:      false
 path:        "/imre-nagi"
 excerpt: "Mungkin di algoritma, struktur data agak kurang, tapi dari sisi coding style, design pattern, dan lain sebagainya aku merasa waktu itu di tingkat anak S2 codingan aku termasuk yang paling rapi."
 guest:      Imre Nagi
-thumbnail: /images/imre.jpg
+thumbnail: "./imre.jpg"
 audio: https://d3ctxlq1ktw2nl.cloudfront.net/staging/2019-3-30/13856729-44100-2-6c429e02aba7d.m4a
 embed: https://anchor.fm/ceritanya-developer/embed/episodes/devs11--Imre-Nagi-e3sprl
 tags:

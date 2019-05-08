@@ -6,7 +6,7 @@ draft:      false
 path:        "/rizky-ariestiyansyah"
 excerpt: "Kalau mau proposal talk punya kesempatan diterima, submitlah proposal secepat mungkin!"
 guest:      Rizky Ariestiyansyah
-thumbnail: /images/rizky.jpg
+thumbnail: "./rizky.jpg"
 audio: https://d3ctxlq1ktw2nl.cloudfront.net/staging/2019-2-25/11859149-44100-2-84d85fba31671.m4a
 embed: https://anchor.fm/ceritanya-developer/embed/episodes/devs10--Rizky-Ariestiyansyah-e3hukp
 tags:

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
 import TopHeader from '../components/Header.js';
 import './index.css';
@@ -13,17 +14,20 @@ const Layout = ({ data }) => {
         <h2>Episode</h2>
       </div>
       {nodes.map(({ frontmatter }) => {
+        console.log(frontmatter.thumbnail);
         return (
           <div
             key={frontmatter.path}
             className="flex container mx-6 mb-6 pb-3 border-grey-lighter border-b"
           >
             <div className="thumb pr-3 self-center">
-              <img
-                style={{ maxWidth: 128, height: 'auto' }}
-                src={frontmatter.thumbnail}
-                alt="guest"
-              />
+              {frontmatter.thumbnail && (
+                <Img
+                  style={{ height: 128, width: 128 }}
+                  fluid={frontmatter.thumbnail.childImageSharp.fluid}
+                  alt="guest"
+                />
+              )}
             </div>
             <div className="texts">
               <h3 key={frontmatter.path}>
@@ -57,8 +61,14 @@ export const query = graphql`
           date
           path
           excerpt
-          thumbnail
           guest
+          thumbnail {
+            childImageSharp {
+              fluid(maxWidth: 128, maxHeight: 128) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
       }
     }

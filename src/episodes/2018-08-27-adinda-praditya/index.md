@@ -6,7 +6,7 @@ draft:      false
 path:        "/adinda-praditya"
 excerpt:    "Membanggakan bila produk yang kita develop itu benar-benar digunakan dan berdampak bagi kehidupan."
 guest:      Adinda Praditya
-thumbnail: /images/dida.jpg
+thumbnail: "./dida.jpg"
 audio: https://d3ctxlq1ktw2nl.cloudfront.net/production/2018-7-27/4261693-44100-2-4cb138dcc1a99.m4a
 embed: https://anchor.fm/ceritanya-developer/embed/episodes/devs5--Adinda-Praditya-e23lvq
 tags:

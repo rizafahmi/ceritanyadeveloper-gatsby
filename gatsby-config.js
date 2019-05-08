@@ -4,7 +4,20 @@ module.exports = {
     description: `Developer inspiratif bercerita tentang bagaimana mereka memulai menjadi developer.`
   },
   plugins: [
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1024
+            }
+          },
+          `gatsby-remark-copy-linked-files`
+        ]
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -12,13 +25,8 @@ module.exports = {
         path: `${__dirname}/src/episodes`
       }
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `pages`,
-        path: `${__dirname}/src/pages`
-      }
-    },
-    `gatsby-plugin-postcss`
+    `gatsby-plugin-postcss`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`
   ]
 };

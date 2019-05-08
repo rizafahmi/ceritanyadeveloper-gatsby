@@ -6,7 +6,7 @@ draft:      false
 path:        "/sofian-hadiwijaya-2"
 excerpt: "Carilah masalah! Ini adalah hal menarik yang harus dilakukan semua orang. Itulah kerjaan gue, mencari masalah. TAPI, tidak berhenti sampai di masalah, kita juga harus mencari solusi atas masalah tersebut."
 guest:      Sofian Hadiwijaya
-thumbnail: /images/sofian.jpeg
+thumbnail: "./sofian.jpg"
 audio: https://d3ctxlq1ktw2nl.cloudfront.net/production/2018-9-29/5447242-44100-2-83667a0379e3d.m4a
 embed: https://anchor.fm/ceritanya-developer/embed/episodes/devs7--Sofian-Hadiwijaya-Part-2-e2g9lf
 tags:

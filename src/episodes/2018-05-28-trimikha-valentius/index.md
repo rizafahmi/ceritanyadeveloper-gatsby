@@ -6,7 +6,7 @@ path: "/trimikha-valentius"
 draft: false
 excerpt: "Membuat aplikasi dan game itu seperti merakit mainan yang bagian-bagiannya sudah ada tinggal bagaimana kita merangkainya menjadi satu kesatuan yang dapat berfungsi dengan baik. Itulah sebabnya saya sangat mencintai dunia programming hingga saat ini."
 guest: Trimikha Valentius
-thumbnail: /images/trimikha.jpg
+thumbnail: "./trimikha.jpg"
 audio: https://d3ctxlq1ktw2nl.cloudfront.net/production/2018-3-23/2340804-22050-1-3c0034ec6fece.m4a
 embed: https://anchor.fm/ceritanya-developer/embed/episodes/devs2--Trimikha-Valentius-e1b7ri
 tags:

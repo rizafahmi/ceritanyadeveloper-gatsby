@@ -6,7 +6,7 @@ draft:      false
 path:        "/sofian-hadiwijaya-1"
 excerpt:    "Ternyata belajar jauh lebih cepat dengan cara mengajar dan sharing dengan sesama."
 guest:      Sofian Hadiwijaya
-thumbnail: /images/sofian.jpeg
+thumbnail: "./sofian.jpeg"
 audio: https://d3ctxlq1ktw2nl.cloudfront.net/production/2018-8-26/4802033-44100-2-bb3cb2eb58f7f.m4a
 embed: https://anchor.fm/ceritanya-developer/embed/episodes/devs6--Sofian-Hadiwijaya-Part-1-e29taa
 tags:

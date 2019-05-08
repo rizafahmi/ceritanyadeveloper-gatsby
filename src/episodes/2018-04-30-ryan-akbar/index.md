@@ -6,7 +6,7 @@ draft: false
 excerpt: "Evan You membuktikan bahwa ngoding itu problem solving. Dan programming itu all about problem solving."
 guest: Ryan Akbar
 subtitle: Developer serba bisa, instruktur keren dan juga desainer.
-thumbnail: /images/ryan-akbar.jpg
+thumbnail: "./ryan-akbar.jpg"
 audio: https://d3ctxlq1ktw2nl.cloudfront.net/production/2018-3-19/2293274-22050-1-b6d8ab15d835.m4a
 embed: https://anchor.fm/ceritanya-developer/embed/episodes/devs1--Ryan-Akbar-e199tf
 tags:

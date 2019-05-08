@@ -4,7 +4,7 @@ path: "/dicky-arinal"
 date: "2018-03-23"
 excerpt: "Pada waktu itu saya merasa sudah jago karena sudah bisa membuat game dengan paradigma OOP. Ketika saya mencoba untuk mengaplikasikan OOP didalam aplikasi bisnis dan saya mengalami kesulitan. Karena ternyata implementasi OOP di aplikasi bisnis jauh lebih susah."
 guest: "Dicky Arinal"
-thumbnail: "/images/dicky.jpg"
+thumbnail: "./dicky.jpg"
 audio: "https://d3ctxlq1ktw2nl.cloudfront.net/production/2018-2-27/2001555-22050-1-b58c46866e5fe.m4a"
 embed: "https://anchor.fm/ceritanya-developer/embed/episodes/devs0--Dicky-Arinal-e186lm"
 tags: ['episode']
