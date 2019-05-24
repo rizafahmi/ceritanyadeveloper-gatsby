@@ -1,0 +1,12 @@
+#timeline {
+  width: 400px;
+  height: 20px;
+}
+
+#handle {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin-top: 1px;
+  position: absolute;
+}

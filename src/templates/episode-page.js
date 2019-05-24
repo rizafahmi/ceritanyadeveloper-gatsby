@@ -4,6 +4,7 @@ import { graphql } from 'gatsby';
 import TopHeader from '../components/Header.js';
 import OtherEpisode from '../components/OtherEpisode.js';
 import Seo from '../components/Seo';
+import Player from '../components/Player';
 
 const Template = ({ data, pageContext }) => {
   const { html } = data.markdownRemark;
@@ -12,7 +13,7 @@ const Template = ({ data, pageContext }) => {
     excerpt,
     guest,
     path,
-    embed
+    audio
   } = data.markdownRemark.frontmatter;
   return (
     <div className="container font-mono mx-auto leading-loose text-grey-darkest">
@@ -33,16 +34,8 @@ const Template = ({ data, pageContext }) => {
           <p className="text-xl">&ldquo;{excerpt}&rdquo;</p>
           <p className="uppercase my-6">{guest}</p>
         </blockquote>
-        <div className="my-6" align="center">
-          <iframe
-            className=""
-            src={embed}
-            title="audio"
-            height="102px"
-            width="752px"
-            frameBorder="0"
-            scrolling="no"
-          />
+        <div className="my-6 mx-6" align="center">
+          <Player audio={audio} />
         </div>
         <div className="" dangerouslySetInnerHTML={{ __html: html }} />
       </div>
@@ -58,7 +51,7 @@ export const query = graphql`
         title
         excerpt
         guest
-        embed
+        audio
         path
       }
     }
