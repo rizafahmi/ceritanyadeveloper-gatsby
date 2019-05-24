@@ -17,7 +17,7 @@ const Layout = ({ data }) => {
         }}
       />
 
-      <TopHeader image={'../images/logo.png'} />
+      <TopHeader image={require('../images/logo.png')} />
       <div className="mx-6 mt-6">
         <h2>Episode</h2>
       </div>

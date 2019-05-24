@@ -4,7 +4,7 @@ import TopHeader from '../components/Header.js';
 
 const Newsletter = () => (
   <div className="container font-mono mx-auto leading-loose text-grey-darkest">
-    <TopHeader image={'../images/logo.png'} />
+    <TopHeader image={require('../images/logo.png')} />
     <div className="mx-6 mt-6">
       <h2>Newsletter</h2>
       <p>
