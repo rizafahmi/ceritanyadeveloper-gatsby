@@ -71,13 +71,13 @@ const Header = () => {
   );
 };
 
-const TopHeader = () => (
+const TopHeader = ({ image }) => (
   <div className="header flex flex-col">
     <div className="logo my-2 flex flex-row">
       <div className="image mx-4 self-center">
-        <Link to={'/'}>
+        <Link to={'/'} className="hover:bg-none">
           <img
-            src={'images/logo.png'}
+            src={image}
             alt="Logo Ceritanya Developer"
             style={{ width: 256 }}
           />

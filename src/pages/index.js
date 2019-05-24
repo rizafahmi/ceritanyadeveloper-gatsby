@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
+import Seo from '../components/Seo';
 import TopHeader from '../components/Header.js';
 import './index.css';
 
@@ -9,12 +10,18 @@ const Layout = ({ data }) => {
   const { nodes } = data.allMarkdownRemark;
   return (
     <div className="container font-mono mx-auto leading-loose text-grey-darkest">
-      <TopHeader />
+      <Seo
+        data={{
+          frontmatter: { title: 'Ceritanya Developer Podcast' },
+          fields: { slug: '/' }
+        }}
+      />
+
+      <TopHeader image={'../images/logo.png'} />
       <div className="mx-6 mt-6">
         <h2>Episode</h2>
       </div>
       {nodes.map(({ frontmatter }) => {
-        console.log(frontmatter.thumbnail);
         return (
           <div
             key={frontmatter.path}

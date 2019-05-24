@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Ceritanya Developer Podcast`,
-    description: `Developer inspiratif bercerita tentang bagaimana mereka memulai menjadi developer.`
+    description: `Developer inspiratif bercerita tentang bagaimana mereka mulai menjadi developer.`
   },
   plugins: [
     {

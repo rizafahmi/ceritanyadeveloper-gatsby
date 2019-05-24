@@ -3,13 +3,29 @@ import { graphql } from 'gatsby';
 
 import TopHeader from '../components/Header.js';
 import OtherEpisode from '../components/OtherEpisode.js';
+import Seo from '../components/Seo';
 
 const Template = ({ data, pageContext }) => {
   const { html } = data.markdownRemark;
-  const { title, excerpt, guest, embed } = data.markdownRemark.frontmatter;
+  const {
+    title,
+    excerpt,
+    guest,
+    path,
+    embed
+  } = data.markdownRemark.frontmatter;
   return (
     <div className="container font-mono mx-auto leading-loose text-grey-darkest">
-      <TopHeader />
+      <Seo
+        data={{
+          frontmatter: {
+            title: `Ceritanya Developer Podcast - ${title}`,
+            description: excerpt
+          },
+          fields: { slug: path }
+        }}
+      />
+      <TopHeader image={'../images/logo.png'} />
       <OtherEpisode context={pageContext} />
       <div className="mx-6 mt-6">
         <h2>{title}</h2>
@@ -43,6 +59,7 @@ export const query = graphql`
         excerpt
         guest
         embed
+        path
       }
     }
   }

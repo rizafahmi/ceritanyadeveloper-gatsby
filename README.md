@@ -1,6 +1,7 @@
 # TODO
 
 - [x] Image sharp
-- [] SEO
+- [x] SEO
 - [] React Audio Player
 - [] Timeline Component
+- [] Footer
