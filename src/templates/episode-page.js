@@ -36,6 +36,9 @@ const Template = ({ data, pageContext }) => {
         </blockquote>
         <div className="my-6 mx-6" align="center">
           <Player audio={audio} />
+          <a href={audio} download>
+            Download
+          </a>
         </div>
         <div className="" dangerouslySetInnerHTML={{ __html: html }} />
       </div>
