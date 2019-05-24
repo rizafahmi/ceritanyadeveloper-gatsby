@@ -5,7 +5,7 @@ import TopHeader from '../components/Header.js';
 const Donasi = () => {
   return (
     <div className="container font-mono mx-auto leading-loose text-grey-darkest">
-      <TopHeader image={'../images/logo.png'} />
+      <TopHeader image={require('../images/logo.png')} />
       <div className="mx-6 mt-6">
         <h2>Donasi dan Kontribusi Untuk Podcast</h2>
         <p>
