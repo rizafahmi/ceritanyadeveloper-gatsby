@@ -93,13 +93,13 @@ export default class Player extends React.Component {
             <img
               alt="pause icon"
               style={{ width: 72 }}
-              src="./images/icon-pause.svg"
+              src={require('../../images/icon-pause.svg')}
             />
           ) : (
             <img
               alt="play icon"
               style={{ width: 72 }}
-              src="./images/icon-play.svg"
+              src={require('../../images/icon-play.svg')}
             />
           )}
         </div>
