@@ -5,7 +5,7 @@ import TopHeader from '../components/Header.js';
 const Tentang = () => {
   return (
     <div className="container font-mono mx-auto leading-loose text-grey-darkest">
-      <TopHeader />
+      <TopHeader image={'../images/logo.png'} />
       <div className="mx-6 mt-6">
         <h2>Tentang</h2>
         <blockquote className="pl-4 border-l-4 border-teal ml-6 my-6">
