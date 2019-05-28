@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
 import TopHeader from '../components/Header.js';
 import OtherEpisode from '../components/OtherEpisode.js';
@@ -13,7 +14,8 @@ const Template = ({ data, pageContext }) => {
     excerpt,
     guest,
     path,
-    audio
+    audio,
+    thumbnail
   } = data.markdownRemark.frontmatter;
   return (
     <div className="container font-mono mx-auto leading-loose text-grey-darkest">
@@ -56,6 +58,13 @@ export const query = graphql`
         guest
         audio
         path
+        thumbnail {
+          childImageSharp {
+            fluid(maxWidth: 128, maxHeight: 128) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
