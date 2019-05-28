@@ -47,7 +47,15 @@ const TitleAndDescription = ({ data }) => {
         <a href="http://pca.st/CwU8" target="_blank" rel="noopener noreferrer">
           Pocket Cast
         </a>
-        , dan berbagai <em>platform</em> lainnya.
+        , dan berbagai <em>platform</em>{' '}
+        <a
+          href="https://anchor.fm/s/30348d4/podcast/rss"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          lainnya
+        </a>
+        .
       </p>
     </div>
   );
