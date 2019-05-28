@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
 import TopHeader from '../components/Header.js';
 import OtherEpisode from '../components/OtherEpisode.js';
@@ -13,7 +14,8 @@ const Template = ({ data, pageContext }) => {
     excerpt,
     guest,
     path,
-    audio
+    audio,
+    thumbnail
   } = data.markdownRemark.frontmatter;
   return (
     <div className="container font-mono mx-auto leading-loose text-grey-darkest">
@@ -30,6 +32,13 @@ const Template = ({ data, pageContext }) => {
       <OtherEpisode context={pageContext} />
       <div className="mx-6 mt-6">
         <h2>{title}</h2>
+        {thumbnail && (
+          <Img
+            style={{ display: 'none', height: 128, width: 128 }}
+            fluid={thumbnail.childImageSharp.fluid}
+            alt="guest"
+          />
+        )}
         <blockquote className="pl-4 border-l-4 border-teal ml-6 my-6">
           <p className="text-xl">&ldquo;{excerpt}&rdquo;</p>
           <p className="uppercase my-6">{guest}</p>
@@ -56,6 +65,13 @@ export const query = graphql`
         guest
         audio
         path
+        thumbnail {
+          childImageSharp {
+            fluid(maxWidth: 128, maxHeight: 128) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
