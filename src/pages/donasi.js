@@ -77,7 +77,7 @@ const Donasi = () => {
         </p>
         <h3>Dukungan via Notion</h3>
         <p>
-          <img src="images/notion.png" alt="notion" />
+          <img src="/images/notion.png" alt="notion" />
           Salah satu tools yang menjadi senjata rahasia saya, terutama dalam
           proses produksi podcast. Mulai dari menyiapkan skrip, penjadwalan,
           menulis catatan episode, dan <em>list todo lainnya</em>. Saya pakai
