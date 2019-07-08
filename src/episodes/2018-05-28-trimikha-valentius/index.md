@@ -46,8 +46,8 @@ Setelah lulus SMA di 2009, Mas Mikha melanjutkan pendidikan ke jenjang kuliah da
 
 <img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" width="128" />
 <img src="https://cdn-images-1.medium.com/max/1200/1*PPIp7twJJUknfohZqtL8pQ.png" width="128" />
-<img src="http://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png" width="128" />
-<img src="http://codelikeapoem.com/wp-content/uploads/2017/11/Visual-Studio-Code-For-Windows.jpg" width="128" />
+<img src="https://mildaintrainings.com/wp-content/uploads/2017/11/react-logo.png" width="128" />
+<img src="https://blog.launchdarkly.com/wp-content/uploads/2018/10/visualstudio_code-card-324x160.png" width="128" />
 
 ## Sponsor
 

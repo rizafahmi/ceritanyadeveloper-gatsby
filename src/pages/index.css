@@ -16,3 +16,7 @@ a:hover {
 p {
   @apply py-3;
 }
+
+blockquote {
+  @apply pl-4 border-l-4 border-teal ml-6 my-6;
+}
