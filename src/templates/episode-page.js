@@ -18,7 +18,7 @@ const Template = ({ data, pageContext }) => {
     thumbnail
   } = data.markdownRemark.frontmatter;
   return (
-    <div className="container font-mono mx-auto leading-loose text-grey-darkest">
+    <div className="max-w-lg container font-mono mx-auto leading-loose text-grey-darkest">
       <Seo
         data={{
           frontmatter: {

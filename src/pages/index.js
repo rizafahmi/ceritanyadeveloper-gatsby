@@ -9,7 +9,7 @@ import './index.css';
 const Layout = ({ data }) => {
   const { nodes } = data.allMarkdownRemark;
   return (
-    <div className="container font-mono mx-auto leading-loose text-grey-darkest">
+    <div className="max-w-lg container font-mono mx-auto leading-loose text-grey-darkest">
       <Seo
         data={{
           frontmatter: { title: 'Ceritanya Developer Podcast' },
