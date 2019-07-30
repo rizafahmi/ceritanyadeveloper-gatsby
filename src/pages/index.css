@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 a {
-  @apply text-teal-light;
+  @apply text-teal-dark;
   @apply no-underline;
 }
 
