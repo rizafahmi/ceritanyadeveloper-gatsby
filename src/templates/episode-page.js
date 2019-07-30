@@ -39,7 +39,7 @@ const Template = ({ data, pageContext }) => {
             alt="guest"
           />
         )}
-        <blockquote className="pl-4 border-l-4 border-teal ml-6 my-6">
+        <blockquote className="pl-4 border-l-4 border-teal-dark ml-6 my-6">
           <p className="text-xl">&ldquo;{excerpt}&rdquo;</p>
           <p className="uppercase my-6">{guest}</p>
         </blockquote>

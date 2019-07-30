@@ -8,7 +8,7 @@ const Tentang = () => {
       <TopHeader image={require('../images/logo.png')} />
       <div className="mx-6 mt-6">
         <h2>Tentang</h2>
-        <blockquote className="pl-4 border-l-4 border-teal ml-6 my-6">
+        <blockquote className="pl-4 border-l-4 border-teal-dark ml-6 my-6">
           <p className="text-xl">
             &ldquo;Developer favorit bercerita tentang bagaimana mereka mulai
             menjadi developer.&rdquo;
