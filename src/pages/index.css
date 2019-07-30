@@ -10,7 +10,7 @@ a {
 a:hover {
   /* @apply bg-teal-light; */
   background: none;
-  @apply text-blue-lightest;
+  @apply text-teal-light;
 }
 
 p {
