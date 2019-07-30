@@ -113,7 +113,7 @@ export default class Player extends React.Component {
         >
           <div
             id="handle"
-            className="bg-teal"
+            className="bg-teal-dark"
             onMouseDown={this.onMouseDown}
             ref={handle => {
               this.handle = handle;
