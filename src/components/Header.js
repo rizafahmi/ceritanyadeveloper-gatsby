@@ -83,7 +83,7 @@ const TopHeader = ({ image }) => (
   <div className="header flex flex-col">
     <div className="logo my-2 flex flex-row">
       <div className="image mx-4 self-center">
-        <Link to={'/'} className="hover:bg-none">
+        <Link to={'/'} className="hover:bg-none border-none">
           <img
             src={image}
             alt="Logo Ceritanya Developer"

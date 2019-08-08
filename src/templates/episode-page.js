@@ -30,26 +30,28 @@ const Template = ({ data, pageContext }) => {
       />
       <TopHeader image={'../images/logo.png'} />
       <OtherEpisode context={pageContext} />
-      <div className="mx-6 mt-6">
-        <h2>{title}</h2>
-        {thumbnail && (
-          <Img
-            style={{ display: 'none', height: 128, width: 128 }}
-            fluid={thumbnail.childImageSharp.fluid}
-            alt="guest"
-          />
-        )}
-        <blockquote className="pl-4 border-l-4 border-teal-dark ml-6 my-6">
-          <p className="text-xl">&ldquo;{excerpt}&rdquo;</p>
-          <p className="uppercase my-6">{guest}</p>
-        </blockquote>
-        <div className="my-6 mx-6" align="center">
-          <Player audio={audio} />
-          <a href={audio} download>
-            Download
-          </a>
+      <div className="bg-white">
+        <div className="mx-6 mt-6">
+          <h2>{title}</h2>
+          {thumbnail && (
+            <Img
+              style={{ display: 'none', height: 128, width: 128 }}
+              fluid={thumbnail.childImageSharp.fluid}
+              alt="guest"
+            />
+          )}
+          <blockquote className="pl-4 border-l-4 border-teal-dark ml-6 my-6">
+            <p className="text-xl">&ldquo;{excerpt}&rdquo;</p>
+            <p className="uppercase my-6">{guest}</p>
+          </blockquote>
+          <div className="my-6 mx-6" align="center">
+            <Player audio={audio} />
+            <a href={audio} download>
+              Download
+            </a>
+          </div>
+          <div className="" dangerouslySetInnerHTML={{ __html: html }} />
         </div>
-        <div className="" dangerouslySetInnerHTML={{ __html: html }} />
       </div>
     </div>
   );
