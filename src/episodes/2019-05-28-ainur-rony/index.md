@@ -6,8 +6,8 @@ path:        "/ainur-rony/"
 excerpt: "Yang namanya film Cinderella itu ada 6. Ceritanya sama, tapi masih banyak orang yang nonton. Artinya masing-masing dari film itu punya keunikan. Nah tugas kita tinggal mencari keunikan yang belum tentu dipunyai kompetitor."
 guest:      Ainur Rony
 thumbnail: ./rony.jpg
-audio: https://d3ctxlq1ktw2nl.cloudfront.net/staging/2019-3-30/13856729-44100-2-6c429e02aba7d.m4a
-embed: https://anchor.fm/ceritanya-developer/embed/episodes/devs11--Imre-Nagi-e3sprl
+audio: https://d3ctxlq1ktw2nl.cloudfront.net/staging/2019-4-24/15803414-44100-2-88dfe0c76807.m4a
+embed: https://anchor.fm/ceritanya-developer/embed/episodes/devs12--Ainur-Rony-e44ls4
 tags:
 - meta
 
@@ -21,10 +21,7 @@ Setelah lulus, [ Rony ](https://www.linkedin.com/in/ainur-rony-662a0b22/) memula
 
 [ Rony ](https://www.linkedin.com/in/ainur-rony-662a0b22/) punya keresahan terkait industri 4.0 dimana berbagai aspek menjadi serba otomatis. Indonesia yang memiliki angkatan kerja banyak harus mau berbenah dan meningkatkan kemampuan agar tidak tergilas oleh berbagai perangkat otomatis yang sebenarnya memudahkan kehidupan kita sehari-hari. Jika hal ini dibiarkan, maka angkatan kerja yang banyak tersebut hanya akan menjadi pengangguran.
 
-<blockquote class="ml0 mt0 pl4 black-90 bl bw2 b--light-purple">
-<p class="f4 f3-m f3-l lh-copy measure mt0">Pendidikan itu segalanya. Itu yang akan menyelamatkan kita kedepannya.</p>
-<cite class="f5 ttu tracked fs-normal">― Ainur Rony</cite>
-</blockquote>
+<blockquote class="pl-4 border-l-4 border-teal ml-6 my-6"><p class="text-xl">Pendidikan itu segalanya. Itu yang akan menyelamatkan kita kedepannya.</p><p class="uppercase my-6">Ainur Rony</p></blockquote>
 
 ## Tips Untuk Developer
 

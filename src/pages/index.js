@@ -9,7 +9,7 @@ import './index.css';
 const Layout = ({ data }) => {
   const { nodes } = data.allMarkdownRemark;
   return (
-    <div className="container font-mono mx-auto leading-loose text-black">
+    <div className="max-w-lg container font-mono mx-auto leading-loose text-black">
       <Seo
         data={{
           frontmatter: { title: 'Ceritanya Developer Podcast' },
@@ -17,7 +17,7 @@ const Layout = ({ data }) => {
         }}
       />
 
-      <TopHeader image={'../images/logo.png'} />
+      <TopHeader image={require('../images/logo.png')} />
       <div className="mx-6 mt-6">
         <h2>Episode</h2>
       </div>

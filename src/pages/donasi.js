@@ -4,8 +4,8 @@ import TopHeader from '../components/Header.js';
 
 const Donasi = () => {
   return (
-    <div className="container font-mono mx-auto leading-loose text-grey-darkest">
-      <TopHeader image={'../images/logo.png'} />
+    <div className="max-w-lg container font-mono mx-auto leading-loose text-grey-darkest">
+      <TopHeader image={require('../images/logo.png')} />
       <div className="mx-6 mt-6">
         <h2>Donasi dan Kontribusi Untuk Podcast</h2>
         <p>
@@ -77,7 +77,7 @@ const Donasi = () => {
         </p>
         <h3>Dukungan via Notion</h3>
         <p>
-          <img src="images/notion.png" alt="notion" />
+          <img src="/images/notion.png" alt="notion" />
           Salah satu tools yang menjadi senjata rahasia saya, terutama dalam
           proses produksi podcast. Mulai dari menyiapkan skrip, penjadwalan,
           menulis catatan episode, dan <em>list todo lainnya</em>. Saya pakai
