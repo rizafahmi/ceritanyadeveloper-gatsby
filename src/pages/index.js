@@ -18,43 +18,45 @@ const Layout = ({ data }) => {
       />
 
       <TopHeader image={require('../images/logo.png')} />
-      <div className="mx-6 mt-6">
-        <h2>Episode</h2>
-      </div>
-      {nodes.map(({ frontmatter }) => {
-        return (
-          <div
-            key={frontmatter.path}
-            className="flex container mx-6 mb-6 pb-3 border-grey-lighter border-b"
-          >
-            <div className="thumb pr-3 self-center">
-              {frontmatter.thumbnail && (
-                <Img
-                  style={{ height: 128, width: 128 }}
-                  fluid={frontmatter.thumbnail.childImageSharp.fluid}
-                  alt="guest"
-                />
-              )}
-            </div>
-            <div className="texts">
-              <h3 key={frontmatter.path}>
-                <Link to={frontmatter.path}>{frontmatter.title}</Link>
-              </h3>
-              <p>
-                "{frontmatter.excerpt}" -- {frontmatter.guest}
-              </p>
-              <div className="buttons">
-                <Link to={frontmatter.path}>
-                  <span role="img" aria-label="emoji">
-                    ▶️{' '}
-                  </span>
-                  Dengarkan
-                </Link>
+      <div className="bg-white">
+        <div className="mx-6 mt-6">
+          <h2>Episode</h2>
+        </div>
+        {nodes.map(({ frontmatter }) => {
+          return (
+            <div
+              key={frontmatter.path}
+              className="flex container mx-6 mb-6 pb-3 border-grey-lighter border-b"
+            >
+              <div className="thumb pr-3 self-center">
+                {frontmatter.thumbnail && (
+                  <Img
+                    style={{ height: 128, width: 128 }}
+                    fluid={frontmatter.thumbnail.childImageSharp.fluid}
+                    alt="guest"
+                  />
+                )}
+              </div>
+              <div className="texts">
+                <h3 key={frontmatter.path}>
+                  <Link to={frontmatter.path}>{frontmatter.title}</Link>
+                </h3>
+                <p>
+                  "{frontmatter.excerpt}" -- {frontmatter.guest}
+                </p>
+                <div className="buttons">
+                  <Link to={frontmatter.path}>
+                    <span role="img" aria-label="emoji">
+                      ▶️{' '}
+                    </span>
+                    Dengarkan
+                  </Link>
+                </div>
               </div>
             </div>
-          </div>
-        );
-      })}
+          );
+        })}
+      </div>
     </div>
   );
 };

@@ -3,8 +3,7 @@
 @tailwind utilities;
 
 a {
-  @apply text-teal-dark;
-  @apply no-underline;
+  @apply text-black no-underline font-extrabold border-b border-black pb-1;
 }
 
 a:hover {
