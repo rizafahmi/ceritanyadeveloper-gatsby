@@ -71,10 +71,6 @@ const Donasi = () => {
             >
               Klik disini untuk menjadi Patron!
             </a>
-            <script
-              async
-              src="https://c6.patreon.com/becomePatronButton.bundle.js"
-            />
           </p>
           <h3>Dukungan via Notion</h3>
           <p>
