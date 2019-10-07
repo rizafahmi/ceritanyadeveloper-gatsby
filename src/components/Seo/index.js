@@ -21,7 +21,7 @@ const Seo = ({ data }) => {
     >
       <title>{title}</title>
       <meta name="description" content={description} />
-      <link rel="shortcut icon" href={favicon} />
+      <link rel="shortcut icon" href={favicon} as="icon" />
 
       <meta property="og:url" content={url} />
       <meta property="og:title" content={title} />
