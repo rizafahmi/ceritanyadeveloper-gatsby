@@ -27,8 +27,54 @@ const Donasi = () => {
             dengan harga sekitar 2 juta rupiah.
           </p>
           <img style={{ height: 256 }} src="/images/zoom.png" alt="recorder" />
-          <h3>Donasi via GoPay</h3>
-          <img style={{ height: 367 }} src="/images/gopay.png" alt="gopay" />
+          <h3>Donasi via KaryaKarsa</h3>
+          <p>
+            Teman-teman bisa melakukan donasi melalui{' '}
+            <a
+              href="https://karyakarsa.com/rizafahmi"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Karya Karsa
+            </a>
+            . Karya Karsa adalah platform apresiasi untuk kreator di Indonesia
+            agar dapat terus berkarya. Untuk melakukan donasi, teman-teman bisa
+            menggunakan GoPay dan prosesnya sangat mudah! Teman-teman bisa
+            memilih tiga tingkatan donasi:
+            <ul>
+              <li>
+                <a
+                  href="https://karyakarsa.com/checkout/206"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Dukungan Rp. 10.000
+                </a>
+                . Sebagai imbalannya, saya mengucapkan terimakasih.
+              </li>
+              <li>
+                <a
+                  href="https://karyakarsa.com/checkout/207"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Dukungan Rp. 50.000
+                </a>
+                . Sebagai imbalannya, nama teman-teman akan saya sebutkan di
+                episode-episode ceritanyadeveloper.
+              </li>
+              <li>
+                <a
+                  href="https://karyakarsa.com/checkout/208"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Dukungan Rp. 2.000.000
+                </a>
+                . Mendapat slot sponsor untuk <em>brand</em> di tiga episode.
+              </li>
+            </ul>
+          </p>
           <h3>Donasi via PayPal</h3>
           <p>
             Alternatif kedua, bisa menggunakan PayPal.{' '}

@@ -48,25 +48,3 @@ Tips untuk _public speaking_:
 * [ helpmeabstract.com ](http://helpmeabstract.com/)
 * [speak.ninja](https://speak.ninja/)
 * [Facebook Rizky](https://www.facebook.com/edXius)
-
-## Dukungan dan Donasi
-
-Untuk saat ini beberapa alat untuk podcast terutama mic masih pinjam sana-sini. Karena itu jika teman-teman berkenan mendonasikan sebagian rezekinya untuk membeli alat, boleh silakan donasikan dengan gopay ataupun paypal.
-
-Rencana terdekat saya ingin membeli [Handy Voice Recorder](https://www.tokopedia.com/okedealpedia/zoom-perekam-suara-digital-handy-voice-recorder-h1n-black?trkid=f%3DCa0000L000P0W0S0Sh%2CCo0Po0Fr0Cb0_src%3Duniverse_page%3D1_ob%3D23_q%3DZoom+H1n_po%3D1_catid%3D634&lt=%2Fsearchproduct%20-%20p1%20-%20product) dengan harga sekitar 2 juta rupiah.
-
-<img style="height: 256px;" src="/images/zoom.png" alt="">
-
-### Donasi via GoPay
-
-![](/images/gopay.png)
-
-### Donasi via PayPal
-
-[Klik disini untuk melakukan donasi via PayPal](https://www.paypal.me/rizafahmi/10).
-
-### Dukungan via Notion
-
-Salah satu tools yang menjadi senjata rahasia saya, terutama dalam proses produksi podcast. Mulai dari menyiapkan skrip, penjadwalan, menulis catatan episode, dan _list todo lainnya_. Saya pakai tools yang namanya [Notion](https://www.notion.so/?r=6445d974f9394c4299f682bd0855f5bd).
-
-[Notion](https://www.notion.so/?r=6445d974f9394c4299f682bd0855f5bd) adalah tempat dimana kita bisa menulis catatan, menulis rencana, kolaborasi dan mengorganisasikan dokumen, bahkan menulis buku. Banyak juga orang yang beranggapan Notion seperti wiki internal. Hampir semua kegiatan yang saya lakukan menggunakan Notion. Info lebih lanjut silakan cek aja [notion.so](https://www.notion.so) atau jika teman-teman mau mendukung podcast ini bisa daftar di [ceritanyadeveloper.com/notion](https://ceritanyadeveloper.com/notion).
